@@ -1,0 +1,219 @@
+/*logo*/
+header.w {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+    margin-bottom: 20px;
+}
+
+.logo a {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    display: block;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+    background: url("../images/logo.png") no-repeat;
+}
+
+/*main*/
+main.w {
+    height: 520px;
+    border: 1px solid #ddd;
+    
+}
+.main_top {
+    height: 40px;
+    background-color: #ececec;  
+    border-bottom: 1px solid #ddd;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*main_center*/
+.main_center input {
+    width: 238px;
+    height: 34px;
+    border: 1px solid  #999;
+}
+input[value="完成注册"] {
+    position: absolute;
+    top: 388px;
+    left: 409px;
+    height: 34px;
+    width: 200px;
+    background-color: #c81623;
+    color: #fff;
+    cursor: pointer;
+}
+.telphone {
+    position: absolute;
+    top: 54px;
+    left: 340px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.message {
+    position: absolute;
+    top: 110px;
+    left: 312px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.password {
+    position: absolute;
+    top: 168px;
+    left: 327px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.safe {
+    position: absolute;
+    top: 212px;
+    left: 478px;
+    width: 162px;
+    height: 14px;
+    line-height: 14px;
+}
+.safe_check{
+    width: 57px;
+    height: 14px;
+    color: #bebebe;
+}
+.safe_weak,
+.safe_middle,
+.safe_strong {
+    border-left: 1px solid #fff;
+    width: 34px;
+    height: 14px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
+.safe_weak{
+    background-color: #de1111;
+    
+}
+.safe_middle {
+    background-color: #40b83f;
+    
+}
+.safe_strong{
+    background-color: #f79100;
+    
+}
+
+.confure_p {
+    position: absolute;
+    top: 245px;
+    left: 327px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.agree {
+    position: absolute;
+    top: 323px;
+    left: 398px;
+    
+}
+.agree span {
+    margin: 0 5px;
+}
+.main_center input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #999; 
+    background-color: #f2f2f2;
+    vertical-align: middle;
+}
+
+.tel_wrong {
+    color: #E62F24;
+    position: absolute;
+    top: 60px;
+    right: 345px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.password_wrong {
+    color: #E62F24;
+    position: absolute;
+    top: 175px;
+    right: 360px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.confure_wrong {
+    color: #E62F24;
+    position: absolute;
+    top: 255px;
+    right: 390px;
+    height: 22px;
+    line-height: 22px;
+}
+.redcha {
+    height: 22px;
+    width: 22px;
+    background-color: #E62F24;
+    border-radius: 11px;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部关于*/
+.footer_info {
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /*border-top: 1px solid #ededed;*/
+}
+.footer_info ul {
+    width: 960px;
+    margin: 0 auto;
+}
+.footer_info li {
+    float: left;
+}
+.footer_info .line {
+    width: 1px;
+    background-color: #999;
+    height: 12px;
+    margin: 0 14px;
+}
+.comunicating {
+    text-align: center;
+    padding-top: 16px;
+}
+.comunicating p:first-child {
+    margin-bottom: 9px;
+}

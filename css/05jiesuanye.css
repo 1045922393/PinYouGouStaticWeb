@@ -1,0 +1,496 @@
+/*顶部开始*/
+.top {
+    background-color: #f1f1f1;
+    height: 31px;
+    line-height: 31px; 
+}
+
+.top_nav ul li {
+    float: left;
+ 
+}
+.pyg_welcome a {
+    margin-left: 12px;
+}
+.top_nav .line {
+    height: 10px;
+    width: 1px;
+    background-color: #666;
+    margin-top: 10px;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+/*头部开始*/
+
+.header {
+    height: 105px; 
+    
+}
+
+/*logo开始*/
+.logo a {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: block;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+    background: url("../images/logo.png") no-repeat;
+}
+/*搜索*/
+.search {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    height: 34px;
+    /*width: 538px;*/
+   
+}
+.header_input {
+    float: left;
+    width: 342px;
+    height: 32px;
+    border: 1px solid #b1191a; 
+    border-right: none;  
+    text-indent: 10px;
+    font-size: 14px;
+}
+.sousuo {
+    float: left;
+    background-color: #b1191a;
+    width: 80px;
+    height: 34px;
+    color: #fff;
+    font-size: 16px;
+     cursor: pointer;
+}
+
+/*正文开始*/
+main li {
+    float:left;
+    
+}
+main li input {
+    vertical-align: top;
+}
+main li img {
+    vertical-align: top;
+}
+main li:nth-child(1) {
+    width: 617px;
+}
+main li:nth-child(1) span {
+    width: 392px;
+    line-height: 20px;
+}
+main li:nth-child(2) {
+    width: 128px;
+}
+main li:nth-child(3) {
+    width: 184px;
+}
+main li:nth-child(4) {
+    width: 161px;
+}
+main ul {
+    padding: 12px 0 12px 4px;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+main h4 {
+    font-size: 14px;
+    color: #C81623;
+    padding: 5px 0 24px;
+}
+
+.shangdian {
+    /*width: 1200px;*/
+    margin: 14px 0 20px;
+    border-bottom: 2px solid #dddddd;
+    line-height: 28px;
+    height: 28px;
+    padding-left: 4px;
+
+}
+.shangdian .ziying {
+    position:absolute;
+    left: 26px;
+    width: 54px;
+    height: 18px;
+    background-color: #C81623;
+    line-height: 18px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.shangdian span:nth-child(3) {
+     position:absolute;
+     top: 50%;
+    transform: translateY(-50%);
+    right: 109px;
+
+}
+.shangdian span:nth-child(4) {
+     position:absolute;
+     top: 50%;
+    transform: translateY(-50%);
+    right:0;
+    color: #C81623;
+}
+ul.first {
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+ul.first li span {
+    line-height: 12px!important;
+}
+ul li a.baozhuang {
+    width: 400px;
+    color: #999999;
+    margin-top: 10px;
+}
+ul li a.baozhuang div {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin:1px 5px;
+    background: url("../images/b3.png") no-repeat center;
+    background-size: contain;
+}
+
+ul li:nth-child(1) img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #DDDDDD;
+    margin: 0 10px 0 17px;
+} 
+ul.chongfu li:nth-child(3) {
+    color: #999;
+}
+ul.chongfu li:nth-child(3) input {
+    border: 1px solid #DDD;
+    width: 40px;
+    line-height: 20px
+    /*height: 28px;*/
+}
+
+ul.chongfu li:nth-child(5) {
+    line-height: 20px;
+}
+
+ul.chongfu:last-child {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+ul.chongfu:hover {
+    background-color: #FEEDEF;
+}
+
+li.huangou div:first-child {
+    margin-bottom: 23px;
+}
+li.huangou div:first-child a:first-child {
+    display: inline-block;
+    border: 1px solid #C81623;
+    color: #C81623;
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+li.huangou div:first-child a:nth-child(2) {
+    display: inline-block;
+    width: 70px;
+    height: 19px;
+    color: #fff;
+    background-color: #c81623;
+    line-height: 19px;
+    text-align: center;
+}
+li.huangou div:nth-last-child(2) {
+    margin-top: 22px;
+    line-height: 22px;
+}
+li.huangou div:nth-last-child(-n+2) {
+    padding-left: 63px;
+    color: #666;
+}
+li.huangou div:nth-last-child(-n+2) a {
+    color: #999;
+}
+
+.jiesuanpaper {
+    margin-top: 20px;
+    border: 1px solid #DDDDDD;
+    height: 50px;
+}
+
+.jiesuanpaper>div:first-child * {
+    line-height: 50px;
+    margin: 0 5px;
+}
+.jiesuanpaper div.clearfix div.fl {
+    width: 290px;
+    padding-top: 8px;
+    line-height: 18px;
+    text-align: center;
+}
+.jiesuanpaper div.clearfix input {
+    height: 50px;
+    width: 109px;
+    background-color: #E60012;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+h5.shanchu {
+    padding: 21px 0 20px 5px;
+}
+ul.shanchu {
+    height: 32px;
+    border: none;
+    padding: 0 18px;
+    background-color: #FFFDEE;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.caihehuan {
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    line-height: 40px;
+    text-align: center;
+}
+
+.caihehuan a {
+    width: 87px;
+    height: 39px;
+
+}
+
+.caihehuan a:hover {
+    background-color: #C81623;
+    color: #fff;
+}
+.lunbotu {
+    padding: 20px 171px 22px 40px;
+
+}
+.lunbotu ul {
+    border: 1px dashed #DDDDDD;
+    border-right: none;
+    padding: 0;
+}
+
+.lunbotu ul li {
+    height: 305px;
+    width: 246px;
+    border-right:1px dashed #DDDDDD;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 18px;
+}
+.lunbotu a.left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50px;
+    width: 19px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(-50%);
+    color: #fff;
+    background-color: #DDDDDD;
+    font-size: 18px;
+}
+.lunbotu a.right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 50px;
+    width: 19px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(-50%);
+    color: #fff;
+    background-color: #DDDDDD;
+    font-size: 18px;
+}
+
+.lunbotu div.tupian {
+    height: 163px;
+    width: 197px;
+    background: url("../images/hot_02.png") no-repeat center;
+    background-size: contain;
+}
+.lunbotu li .price {
+    text-align: center;
+    color: #D91F20;
+    line-height: 16px;
+}
+
+.lunbotu a.addin {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    height: 28px;
+    width: 123px;
+    text-align: center;
+    line-height: 28px;
+    transform: translateX(-50%);
+    color: #999999;
+    font-size: 18px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+   
+}
+
+.lunbotu a.addin:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+
+* {
+     transition: background-color 1s,color 1s;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部优惠*/
+footer {
+    background-color: #f5f5f5;
+}
+/*底部优惠*/
+
+.advange {
+    /*padding-left: 36px;*/
+    padding: 30px 0 30px 36px;
+    border-bottom: 1px solid #ededed;
+}
+.advange dl {
+    float: left;
+    width: 20%;
+}
+.advange dt {
+    height: 50px;
+    width: 50px;
+    font-size: 0;
+    float: left;
+    background-image: url("../images/icons.png");
+}   
+.advange dl:nth-child(1) dt {
+    background-position: -253px -3px;
+}
+.advange dl:nth-child(2) dt {
+    background-position: -253px -52px;
+}
+.advange dl:nth-child(3) dt {
+    background-position: -256px -105px;
+}
+.advange dl:nth-child(4) dt {
+    background-position: -257px -156px;
+}
+.advange dl:nth-child(5) dt {
+    background-position: -256px -208px;
+}
+.advange dd {
+    float: left;
+    padding-left: 6px;
+}
+.advange dd h4 {
+    padding: 8px 0;
+}
+/*底部导航*/
+.footer_nav {
+    padding-top: 20px;
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+.footer_nav dl {
+    float: left;
+    width: 16%;
+    /*padding-left: 50px;*/
+}
+.footer_nav dt {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 14px;
+}
+.footer_nav dd {
+    padding-bottom: 10px;
+}
+.footer_nav dd a {
+    color: #333;
+}
+.footer_nav img {
+    position: relative;
+    top: 0;
+    left: -10px;
+}
+
+/*底部关于*/
+.footer_info {
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 1px solid #ededed;
+}
+.footer_info ul {
+    width: 960px;
+    margin: 0 auto;
+}
+.footer_info li {
+    float: left;
+}
+.footer_info .line {
+    width: 1px;
+    background-color: #999;
+    height: 12px;
+    margin: 0 14px;
+}
+.comunicating {
+    text-align: center;
+    padding-top: 16px;
+}
+.comunicating p:first-child {
+    margin-bottom: 9px;
+}
